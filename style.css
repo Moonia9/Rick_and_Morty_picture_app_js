@@ -1,0 +1,26 @@
+body {
+  display: flex;
+}
+
+.episodesList {
+  min-width: 25vw;
+}
+
+.charactersList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.characterCard {
+  width: 150px;
+  margin: 5px;
+}
+
+.characterImage {
+  width: 150px;
+}
+
+.characterName {
+  font-size: 20px;
+}
